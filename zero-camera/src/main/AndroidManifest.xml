@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cry.zero_camera">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity
+            android:name=".preview.CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activity.capture.CameraCaptureActivity" />
+        <activity android:name=".activity.camera_filter.CameraCaptureFilterActivity" />
+        <activity android:name=".activity.video.VideoCaptureFilterActivity" />
+        <activity android:name=".activity.double_input.DoubleInput2Activity" />
+        <activity android:name=".activity.ppt.PhotoAnimateSimpleActivity" />
+        <activity android:name=".activity.ppt.ccc.RecordFBOActivity" />
+        <activity android:name=".activity.ppt.PickMorePicsActivity" />
+        <activity android:name=".activity.movie.GenerateMovieActivity"></activity>
+    </application>
+
+</manifest>

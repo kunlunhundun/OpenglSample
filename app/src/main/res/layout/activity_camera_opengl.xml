@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CameraOpenglActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/toZeroCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="摄像"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toZeroCameraCapture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CameraCapture"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toZeroCameraCaptureFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CameraCaptureFilter"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toZeroVideoCaptureFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放视频滤镜"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toZeroDoubleInput2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DoubleInput2"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toRecordFBO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RecordFBO"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/toPhotoAnimate"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="ToPhotoAnimate"
+             android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/generateMovieActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="图片生成视频"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
